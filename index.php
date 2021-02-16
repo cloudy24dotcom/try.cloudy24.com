@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--favicon icon-->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/png" sizes="16x16">
+    <link rel="icon" href="https://www.cloudy24.com/assets/images/favicon.ico" type="image/png" sizes="16x16">
 
     <!--Title-->
     <title><?php if(isset($title)){ echo $title.""; } else { echo "Web Hosting services in india | Cloudy24";  } ?>
     </title>
     <!-- Search Engine -->
     <meta name="description"
-        content="<?php if(isset($description)){  echo $description;  }else{  echo "Are you looking for cheap web shared hosting at affordable prices and unlimited features? ... It's worth noting you may see our packages that are really cheap, but you should know these are ... ₹89/MONTH."; } ?>">
+        content="<?php if(isset($description)){  echo $description;  }else{  echo "Web hosting starting from ₹89/MONTH."; } ?>">
     <meta name="image" content="https://www.cloudy24.com/assets/images/logo.png">
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="Cloudy24 - Worldwide Cloud Solutions Provider">
@@ -171,6 +171,14 @@
 
 
 /* fix end */
+.c-signup-form__small-print {
+    font-size: 14px;
+    line-height: 1.42857;
+    font-family: source sans pro,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
 .video-play-button:after {
     content: "";
     position: absolute;
@@ -296,6 +304,7 @@
     font-size: 24px;
     line-height: 35px;
 }
+
 }
 </style>
 </head>
@@ -326,7 +335,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-8">
                         <div class="hero-content-wrap position-relative z-index">
-                            <h1 class="">Shared <span>Web Hosting</span></h1>
+                            <h1 class=""><span>Web Hosting</span></h1>
                             <p class="lead">Web hosting made easy & affordable, choose a fine-tuned web hosting services
                                 solution for successful personal and business websites.</p>
                             <ul class="list-unstyled">
@@ -386,8 +395,8 @@
                         <div class="offer-box text-center white-bg px-4 shadow-lg">
                         <h5 class="text-primary">Special Offer Price</h5>
                         <div class="d-flex justify-content-center my-3">
-                                    <span class="h5 text-uted mb-0 mt-2">$</span>
-                                    <span class="price text-dark display-4 font-weight-bold mb-0">4.99</span>
+                                    <span class="h5 text-uted mb-0 mt-2">₹ </span>
+                                    <span class="price text-dark display-4 font-weight-bold mb-0">89.00 Rs</span>
                                     <span class="h5 text-uted align-self-end mb-1">/mo</span>
                         </div> 
                         <ul class="list-unstyled hide-on-desktop">
@@ -436,13 +445,16 @@
                                 <li class="py-1">
                                     <div class="d-flex align-items-center">
                                         <span class="ti-check-box mr-2"></span>
-                                        <p class="mb-0">24/7 Ticket Support & Powered by cPanel</p>
+                                        <p class="mb-0">24/7 Ticket Support </p>
                                     </div>
                                 </li>
                             </ul>
-                        <h6 class="mb-3">Original Price <span class="text-warning">$10.99</span></h6>
-                        <button type="submit" class="btn primary-solid-btn animated-btn d-block w-100">Get Started</button>
-                        </div>
+                        <h6 class="mb-3">  </h6>
+                        <a  href="https://app.cloudy24.com/cart.php?a=add&pid=7" target="_blank"	 class="btn primary-solid-btn animated-btn d-block w-100">Get Started</a>
+                            <h6 class="mb-3">  </h6>
+						 <p class="c-signup-form__small-print">By signing up, you agree to the <a target="_blank" href="https://www.cloudy24.com/term-conditions">Terms of Service</a>.
+                        </p>
+						</div>
                     </div>
                 </div>
             </div>
@@ -458,7 +470,7 @@
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
 
                     <!--logo start-->
-                    <a class="navbar-brand" href="index"><img src="https://cloudy24.com/assets/images/logo-white1.png" width="180" alt="logo"
+                    <a class="navbar-brand" href="https://cloudy24.com/"><img src="https://cloudy24.com/assets/images/logo-white1.png" width="180" alt="logo"
                             class="img-fluid" /></a>
                     <!--logo end-->
 
@@ -502,7 +514,7 @@
 
                             <!--button start-->
                             <li class="nav-item header-nav-last-item d-flex align-items-center">
-                                <a class="btn primary-solid-btn animated-btn" href="#">
+                                <a class="btn primary-solid-btn animated-btn" target="_blank" href="https://app.cloudy24.com/index.php?rp=/login">
                                     Client Login
                                 </a>
                             </li>
@@ -876,7 +888,7 @@
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading mb-5">
                     <h2>Frequently Asked Queries</h2>
-                    <p>Do you have any Web Hosting questions? We have your answers! Below you'll find answers to the most generally asked Web Hosting questions. And, if you have any questions that are not listed below, we encourage you to ask our 24/7/365 Cloudy24 Support team. They'll be more than happy to help! We can't wait to work with you! <a href="https://app.cloudy24.com/submitticket.php" class="page-scroll">Contact us</a></p>
+                    <p>Do you have any Web Hosting questions? We have your answers! Below you'll find answers to the most generally asked Web Hosting questions. And, if you have any questions that are not listed below, we encourage you to ask our 24/7/365 Cloudy24 Support team. They'll be more than happy to help! We can't wait to work with you! <a target="_blank" href="https://app.cloudy24.com/submitticket.php" class="page-scroll">Contact us</a></p>
                 </div>
             </div>
         </div>
@@ -981,12 +993,12 @@
                 <div class="col-sm-12 text-center">
 
                     <div class="copyright-links text-white mb-2">
-                        <a href="term-conditions" class="text-white">Terms of Use</a> |
-                        <a href="privacy-policy" class="text-white">Privacy Policy</a> |
-                        <a href="#" class="text-white">Cancelation Policy</a> |
-                        <a href="billing-agreement" class="text-white">Billing Agreement</a> |
-                        <a href="sla" class="text-white">SLA</a> |
-                        <a href="zero-tolerance-policy" class="text-white">Zero Tolerance Policy</a>
+                        <a target="_blank" href="https://cloudy24.com/term-conditions" class="text-white">Terms of Use</a> |
+                        <a target="_blank" href="https://cloudy24.com/privacy-policy" class="text-white">Privacy Policy</a> |
+                        <a target="_blank" href="https://cloudy24.com/cancelation-policy" class="text-white">Cancelation Policy</a> |
+                        <a target="_blank" href="https://cloudy24.com/billing-agreement" class="text-white">Billing Agreement</a> |
+                        <a target="_blank" href="https://cloudy24.com/sla" class="text-white">SLA</a> |
+                        <a target="_blank" href="https://cloudy24.com/zero-tolerance-policy" class="text-white">Zero Tolerance Policy</a>
 
                     </div>
                     <p class="text-white">Copyright © 2014 - <?= date("Y")?> <a style="color: white"
@@ -998,31 +1010,31 @@
                     <div class="_5akfd">
                         <ul>
                             <li class="un_MZ"><a class="_1HTgw" rel="nofollow" href="https://twitter.com/cloudy24dotcom"
-                                    aria-label="Twitter"><img class="_3Ie-f" alt="Twitter" title="Twitter"
+                                  target="_blank"  aria-label="Twitter"><img class="_3Ie-f" alt="Twitter" title="Twitter"
                                         src="https://cloudy24.com/assets/images/icon-twitter.svg"></a>
                             </li>
                             <li class="un_MZ"><a class="_1HTgw" rel="nofollow"
-                                    href="http://www.facebook.com/cloudy24dotcom" aria-label="Facebook"><img
+                                  target="_blank"  href="https://www.facebook.com/cloudy24dotcom" aria-label="Facebook"><img
                                         class="_3Ie-f" alt="Facebook" title="Facebook"
                                         src="https://cloudy24.com/assets/images/icon-facebook.svg"></a>
                             </li>
                             <li class="un_MZ"><a class="_1HTgw" rel="nofollow"
-                                    href="https://www.youtube.com/channel/UCzkke_vCKGHvYbIl5c8BqGQ"
+                                  target="_blank"  href="https://www.youtube.com/channel/UCzkke_vCKGHvYbIl5c8BqGQ"
                                     aria-label="YouTube"><img class="_3Ie-f" alt="YouTube" title="YouTube"
                                         src="https://cloudy24.com/assets/images/icon-youtube.svg"></a>
                             </li>
                             <li class="un_MZ"><a class="_1HTgw" rel="nofollow"
-                                    href="https://www.instagram.com/cloudy24dotcom" aria-label="Instagram"><img
+                                  target="_blank"  href="https://www.instagram.com/cloudy24dotcom" aria-label="Instagram"><img
                                         class="_3Ie-f" alt="Instagram" title="Instagram"
                                         src="https://cloudy24.com/assets/images/icon-instagram.svg"></a>
                             </li>
                             <li class="un_MZ"><a class="_1HTgw" rel="nofollow"
-                                    href="https://www.linkedin.com/company/cloudy24" aria-label="Linkedin"><img
+                                  target="_blank"  href="https://www.linkedin.com/company/cloudy24" aria-label="Linkedin"><img
                                         class="_3Ie-f" alt="Linkedin" title="Linkedin"
                                         src="https://cloudy24.com/assets/images/icon-linkedin.svg"></a>
                             </li>
                             <li class="un_MZ"><a class="_1HTgw" rel="nofollow"
-                                    href="https://in.pinterest.com/cloudy24dotcom/" aria-label="Pinterest"><img
+                                  target="_blank"  href="https://in.pinterest.com/cloudy24dotcom/" aria-label="Pinterest"><img
                                         class="_3Ie-f" alt="Pinterest" title="Pinterest"
                                         src="https://cloudy24.com/assets/images/icon-pinterest.svg"></a>
                             </li>
@@ -1075,28 +1087,28 @@
 </div>
 <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 <!--jQuery-->
-<script src="https://cloudy24.com/assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/jquery-3.4.1.min.js"></script>
 <!--Popper js-->
-<script src="https://cloudy24.com/assets/js/popper.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
 <!--Bootstrap js-->
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 
 <!--jquery easing js-->
-<script src="https://cloudy24.com/assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
 <!--jquery ytplayer js-->
-<script src="https://cloudy24.com/assets/js/jquery.mb.YTPlayer.min.js"></script>
+<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
 
 <!--owl carousel js-->
-<script src="https://cloudy24.com/assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 
 <!--headroom js-->
-<script src="https://cloudy24.com/assets/js/headroom.min.js"></script>
+<script src="assets/js/headroom.min.js"></script>
 
 <!--custom js-->
-<script src="https://cloudy24.com/assets/js/scripts.js"></script>
-<script src="https://cloudy24.com/assets/js/form-validator.min.js"></script>
-<script src="https://cloudy24.com/assets/js/contact-form-script.js"></script>
-<script src="https://cloudy24.com/assets/js/thenexttechienoti.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/form-validator.min.js"></script>
+<script src="assets/js/contact-form-script.js"></script>
+<script src="assets/js/thenexttechienoti.js"></script>
 <script>
 (function( $ ) {      "use strict";   
   $(function() {
