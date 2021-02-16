@@ -114,6 +114,203 @@
 
 
     <!-- TrustBox script -->
+    <style>
+        /* fix start */
+
+        @media (max-width: 767px){
+            #navBar {
+                background-color: #101010 !important;
+                border-radius: 10px;
+            }
+        }
+
+        @media (min-width: 768px){
+            .landing_page .lead {
+                display: inline !important;
+            }
+            .landing_page h1 {
+                font-size: 40px;
+                text-align: left !important;
+            }
+        }
+
+        .hide-on-desktop{
+            display: none !important;
+        }
+
+        @media (max-width: 992px){
+            .hide-on-desktop{
+                display: inline !important;
+            }
+            .hide-on-desktop p{
+                font-size: 14px;
+            }
+        }
+
+
+
+
+
+
+
+
+        /* fix end */
+        .c-signup-form__small-print {
+            font-size: 14px;
+            line-height: 1.42857;
+            font-family: source sans pro,sans-serif;
+            font-weight: 400;
+            letter-spacing: 0;
+            margin-bottom: 0;
+        }
+        /*.video-play-button:after {*/
+        /*    content: "";*/
+        /*    position: absolute;*/
+        /*    z-index: 1;*/
+        /*    left: 50%;*/
+        /*    top: 50%;*/
+        /*    transform: translateX(-50%) translateY(-50%);*/
+        /*    display: block;*/
+        /*    width: 80px;*/
+        /*    height: 80px;*/
+        /*    background: #fa183d;*/
+        /*    border-radius: 50%;*/
+        /*    transition: all 200ms;*/
+        /*}*/
+        /*.video-play-button:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            display: block;
+            width: 80px;
+            height: 80px;
+            background: #f65935;
+            border-radius: 50%;
+            animation: pulse-border 1500ms ease-out infinite;
+        }*/
+
+            .pt-165 {
+                padding-top: 150px !important;
+            }
+        .custom-modal .modal-header {
+            padding: 2px 10px;
+        }
+        .custom-modal .modal-body {
+            position: relative;
+            padding: 0px;
+        }
+        .subm_video {
+            top: 48% !important;
+            right: 38% !important;
+        }
+
+        .video-btn, .video-play-button {
+            cursor: pointer;
+        }
+        .flex-center {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+        .text-primarycl {
+            color: #f65935;
+        }
+        .video-play-button {
+            /*position: absolute;*/
+            /*z-index: 10;*/
+            /*top: 53%;*/
+            /*right: 42%;*/
+            /*transform: translateX(-50%) translateY(-50%);*/
+            /*box-sizing: content-box;*/
+            /*display: block;*/
+            /*width: 32px;*/
+            /*height: 44px;*/
+            /*!* background: #fa183d; *!*/
+            /*border-radius: 50%;*/
+            /*padding: 20px;*/
+            /*display: flex;*/
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            height: 4.5em;
+            width: 4.5em;
+            background-color: #ff4700;
+            border-radius: 50%;
+        }
+        }
+        .landing_page {
+            padding: 130px 0 30px;
+        }
+
+        .landing_page .hero-content-wrap {
+            color: white;
+        }
+
+        .landing_page h1 {
+            color: white;
+            font-size: 45px;
+        }
+
+        .landing_page .lead {
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .landing_page ul {
+            font-size: 20px;
+        }
+
+        .landing_page .action-btns {
+            font-size: 28px;
+            text-transform: capitalize;
+        }
+        .landing_page h1 span, .action-btns span {
+            color: #ff4700;
+        }
+        .landing_page ul .ti-check-box {
+            color: #ff4700;
+        }
+        .landing_page .offer-box {
+            max-width: 100%;
+            width: 100%;
+            border-radius: 30px;
+            margin: 0 auto;
+            padding: 15px;
+            padding: 30px !important;
+        }
+        .headroom{
+            position: absolute;
+        }
+        .custom-nav-link {
+            font-size: 18px;
+            font-family: 'Open Sans',sans-serif;
+            font-weight: 500;
+            color: #ffffff;
+        }
+
+        @media (max-width:992px){
+            .landing_page .lead {
+                display: none;
+            }
+
+            .landing_page h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .landing_page ul {
+                display: none;
+            }
+
+            .landing_page .action-btns {
+                font-size: 24px;
+                line-height: 35px;
+            }
+
+        }
+    </style>
     <script>
         (function (w, d, s, r, n) {
             w.TrustpilotObject = n;
@@ -130,183 +327,6 @@
         tp('register', 'kQ1b4QDBgSEyKC28');
     </script>
     <!-- End TrustBox script -->
-<style>
-/* fix start */
-
-@media (max-width: 767px){
-    #navBar {
-        background-color: #101010 !important;
-        border-radius: 10px;
-    }
-}
-
-@media (min-width: 768px){
-    .landing_page .lead {
-        display: inline !important;
-    }
-    .landing_page h1 {
-        font-size: 40px;
-        text-align: left !important;
-    }
-}
-
-.hide-on-desktop{
-    display: none !important;
-}
-
-@media (max-width: 992px){
-    .hide-on-desktop{
-        display: inline !important;
-    }
-    .hide-on-desktop p{
-        font-size: 14px;
-    }
-}
-
-
-
-
-
-
-
-
-/* fix end */
-.c-signup-form__small-print {
-    font-size: 14px;
-    line-height: 1.42857;
-    font-family: source sans pro,sans-serif;
-    font-weight: 400;
-    letter-spacing: 0;
-    margin-bottom: 0;
-}
-.video-play-button:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 80px;
-    height: 80px;
-    background: #fa183d;
-    border-radius: 50%;
-    transition: all 200ms;
-}
-.video-play-button:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 80px;
-    height: 80px;
-    background: #ba1f24;
-    border-radius: 50%;
-    animation: pulse-border 1500ms ease-out infinite;
-}
-.custom-modal .modal-header {
-    padding: 2px 10px;
-}
-.custom-modal .modal-body {
-    position: relative;
-    padding: 0px;
-}
-.subm_video {
-    top: 48% !important;
-    right: 38% !important;
-}
-
-.video-btn, .video-play-button {
-    cursor: pointer;
-}
-.video-play-button {
-    position: absolute;
-    z-index: 10;
-    top: 53%;
-    right: 42%;
-    transform: translateX(-50%) translateY(-50%);
-    box-sizing: content-box;
-    display: block;
-    width: 32px;
-    height: 44px;
-    /* background: #fa183d; */
-    border-radius: 50%;
-    padding: 18px 20px 18px 28px;
-}
-.landing_page {
-    padding: 130px 0 30px;
-}
-
-.landing_page .hero-content-wrap {
-    color: white;
-}
-
-.landing_page h1 {
-    color: white;
-    font-size: 45px;
-}
-
-.landing_page .lead {
-    font-size: 22px;
-    line-height: 30px;
-}
-
-.landing_page ul {
-    font-size: 20px;
-}
-
-.landing_page .action-btns {
-    font-size: 28px;
-    text-transform: capitalize;
-}
-.landing_page h1 span, .action-btns span {
-    color: #ff4700;
-}
-.landing_page ul .ti-check-box {
-    color: #ff4700;
-}
-.landing_page .offer-box {
-    max-width: 100%;
-    width: 100%;
-    border-radius: 30px;
-    margin: 0 auto;
-    padding: 15px;
-    padding: 30px !important;
-}
-.headroom{
-    position: absolute;
-}
-.custom-nav-link {
-    font-size: 18px;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: 500;
-    color: #ffffff;
-}
-
-@media (max-width:992px){
-    .landing_page .lead {
-    display: none;
-}
-
-.landing_page h1 {
-    font-size: 40px;
-    text-align: center;
-}
-
-.landing_page ul {
-    display: none;
-}
-
-.landing_page .action-btns {
-    font-size: 24px;
-    line-height: 35px;
-}
-
-}
-</style>
 </head>
 
 <body>
@@ -330,7 +350,8 @@
     <div class="main main-without-padding" style="padding-top: 0!important">
 
         <!--hero section start-->
-        <section class="hero-equal-height pt-165 pb-100 landing_page gradient-overlay" id="home" style="background: url(https://cloudy24.com/assets/images/cloud.png)no-repeat center center / cover; background-color: #03189c !important;">
+        <section class="hero-equal-height pt-165 pb-100 landing_page gradient-overlay" id="home" style="background: url()no-repeat center center / cover;     background: linear-gradient(75deg ,#0a0a0a 10%,#480075) !important;
+}">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-8">
@@ -393,7 +414,7 @@
                     </div>
                     <div class="col-md-5 col-lg-4">
                         <div class="offer-box text-center white-bg px-4 shadow-lg">
-                        <h5 class="text-primary">Special Offer Price</h5>
+                        <h5 class="text-primarycl">Special Offer Price</h5>
                         <div class="d-flex justify-content-center my-3">
                                     <span class="h5 text-uted mb-0 mt-2">₹ </span>
                                     <span class="price text-dark display-4 font-weight-bold mb-0">89.00 Rs</span>
@@ -553,11 +574,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-8 mx-auto">
-                    <div class="price-table custom-video">
-                        <img width="100%" class="img-fluid" src="https://image.freepik.com/free-vector/cloud-hosting-concept-illustration_114360-730.jpg" alt="" />
-                        <a class="video-play-button1 video-play-button youtube-player video-btn subm_video" data-toggle="modal"
+                    <div class="price-table custom-video flex-center " style="background-image: url(assets/cloudy24-web-hosting.jpg); height: 22em;
+    background-position: center;" >
+                       <!-- <img width="100%" class="img-fluid" src="" alt="Cloudy24 web hotsing" />-->
+                        <a class="video-play-button1 flex-center video-play-button youtube-player video-btn subm_video" data-toggle="modal"
                            data-src="https://www.youtube.com/embed/wLDsn78-krM" data-target="#submerchantvideo">
-                            <i class="ti-control-play"></i>
+<!--                            <i class="ti-control-play"></i>-->
+                            <img src="assets/play.svg" width="52px">
                         </a>
                     </div>
                 </div>
@@ -903,7 +926,7 @@
                         <div id="collapseOne" class="collapse" data-parent="#accordion-one">
                             <div class="card-body">
                                 <p>At Cloudy24 we try to be an open book. Swot up on our timeline, principles and company set up on our
-                                    <a href="about">About Us page</a>.
+                                    <a href="https://cloudy24.com/about">About Us page</a>.
                                 </p>
                             </div>
                         </div>
