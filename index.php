@@ -131,6 +131,46 @@
     </script>
     <!-- End TrustBox script -->
 <style>
+/* fix start */
+
+@media (max-width: 767px){
+    #navBar {
+        background-color: #101010 !important;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 768px){
+    .landing_page .lead {
+        display: inline !important;
+    }
+    .landing_page h1 {
+        font-size: 40px;
+        text-align: left !important;
+    }
+}
+
+.hide-on-desktop{
+    display: none !important;
+}
+
+@media (max-width: 992px){
+    .hide-on-desktop{
+        display: inline !important;
+    }
+    .hide-on-desktop p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+/* fix end */
 .video-play-button:after {
     content: "";
     position: absolute;
@@ -275,74 +315,10 @@
     </div>
     <!--loader end-->
 
-    <!--header section start-->
-    <header id="header" class="header-main headroom">
-        <!--main header menu start-->
-        <div id="logoAndNav" class="main-header-menu-wrap">
-            <div class="container">
-                <nav class="js-mega-menu navbar navbar-expand-md header-nav">
-
-                    <!--logo start-->
-                    <a class="navbar-brand" href="index"><img src="https://cloudy24.com/assets/images/logo-white1.png" width="180" alt="logo"
-                            class="img-fluid" /></a>
-                    <!--logo end-->
-
-                    <!--responsive toggle button start-->
-                    <button type="button" class="navbar-toggler btn" aria-expanded="false" aria-controls="navBar"
-                        data-toggle="collapse" data-target="#navBar">
-                        <span id="hamburgerTrigger">
-                            <span class="ti-menu"></span>
-                        </span>
-                    </button>
-                    <!--responsive toggle button end-->
-
-                    <!--main menu start-->
-                    <div id="navBar" class="collapse navbar-collapse">
-                        <ul class="navbar-nav ml-auto main-navbar-nav">
-                            <!--home start-->
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#home" aria-haspopup="true"
-                                    aria-expanded="false">Home</a>
-                            </li>
-                            <!-- <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#packages"
-                                    aria-haspopup="true" aria-expanded="false">Packages</a>
-                            </li> -->
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#compareprovider"
-                                    aria-haspopup="true" aria-expanded="false">Packages Comparison</a>
-                            </li>
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#reviews"
-                                    aria-haspopup="true" aria-expanded="false">Client Review</a>
-                            </li>
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#faq"
-                                    aria-haspopup="true" aria-expanded="false">FAQ's</a>
-                            </li>
-
-                            <!--home end-->
-
-
-
-                            <!--button start-->
-                            <li class="nav-item header-nav-last-item d-flex align-items-center">
-                                <a class="btn primary-solid-btn animated-btn" href="#">
-                                    Client Login
-                                </a>
-                            </li>
-                            <!--button end-->
-                        </ul>
-                    </div>
-                    <!--main menu end-->
-                </nav>
-            </div>
-        </div>
-        <!--main header menu end-->
-    </header>
+    
     <!--header section end-->
     <!--body content wrap start-->
-    <div class="main main-without-padding">
+    <div class="main main-without-padding" style="padding-top: 0!important">
 
         <!--hero section start-->
         <section class="hero-equal-height pt-165 pb-100 landing_page gradient-overlay" id="home" style="background: url(https://cloudy24.com/assets/images/cloud.png)no-repeat center center / cover; background-color: #03189c !important;">
@@ -413,9 +389,59 @@
                                     <span class="h5 text-uted mb-0 mt-2">$</span>
                                     <span class="price text-dark display-4 font-weight-bold mb-0">4.99</span>
                                     <span class="h5 text-uted align-self-end mb-1">/mo</span>
-                                </div>
-                                <h6 class="mb-3">Original Price <span class="text-warning">$10.99</span></h6>
-                                <button type="submit" class="btn primary-solid-btn animated-btn d-block w-100">Get Started</button>
+                        </div> 
+                        <ul class="list-unstyled hide-on-desktop">
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">Host 1 Domain
+                                            </p>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">Free COMODO SSL Certificate
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">10 GB NVMe-SSDs Web Space
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">200 GB Unmetered* Bandwidth
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">30 Email accounts
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">30 FTP accounts
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <div class="d-flex align-items-center">
+                                        <span class="ti-check-box mr-2"></span>
+                                        <p class="mb-0">24/7 Ticket Support & Powered by cPanel</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        <h6 class="mb-3">Original Price <span class="text-warning">$10.99</span></h6>
+                        <button type="submit" class="btn primary-solid-btn animated-btn d-block w-100">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -423,6 +449,72 @@
         </section>
 <!--testimonial and review section start-->
 <section class="client-review-section gray-light-bg" id="reviews">
+
+    <!--header section start-->
+    <header id="header" class="header-main headroom">
+        <!--main header menu start-->
+        <div id="logoAndNav" class="main-header-menu-wrap">
+            <div class="container">
+                <nav class="js-mega-menu navbar navbar-expand-md header-nav">
+
+                    <!--logo start-->
+                    <a class="navbar-brand" href="index"><img src="https://cloudy24.com/assets/images/logo-white1.png" width="180" alt="logo"
+                            class="img-fluid" /></a>
+                    <!--logo end-->
+
+                    <!--responsive toggle button start-->
+                    <button type="button" class="navbar-toggler btn text-light" aria-expanded="false" aria-controls="navBar"
+                        data-toggle="collapse" data-target="#navBar">
+                        <span id="hamburgerTrigger">
+                            <span class="ti-menu"></span>
+                        </span>
+                    </button>
+                    <!--responsive toggle button end-->
+
+                    <!--main menu start-->
+                    <div id="navBar" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto main-navbar-nav">
+                            <!--home start-->
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#home" aria-haspopup="true"
+                                    aria-expanded="false">Home</a>
+                            </li>
+                            <!-- <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#packages"
+                                    aria-haspopup="true" aria-expanded="false">Packages</a>
+                            </li> -->
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#compareprovider"
+                                    aria-haspopup="true" aria-expanded="false">Packages Comparison</a>
+                            </li>
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#reviews"
+                                    aria-haspopup="true" aria-expanded="false">Client Review</a>
+                            </li>
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#faq"
+                                    aria-haspopup="true" aria-expanded="false">FAQ's</a>
+                            </li>
+
+                            <!--home end-->
+
+
+
+                            <!--button start-->
+                            <li class="nav-item header-nav-last-item d-flex align-items-center">
+                                <a class="btn primary-solid-btn animated-btn" href="#">
+                                    Client Login
+                                </a>
+                            </li>
+                            <!--button end-->
+                        </ul>
+                    </div>
+                    <!--main menu end-->
+                </nav>
+            </div>
+        </div>
+        <!--main header menu end-->
+    </header>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-lg-12">
@@ -920,7 +1012,7 @@
 <!--Popper js-->
 <script src="https://cloudy24.com/assets/js/popper.min.js"></script>
 <!--Bootstrap js-->
-<script src="https://cloudy24.com/assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 
 <!--jquery easing js-->
 <script src="https://cloudy24.com/assets/js/jquery.easing.min.js"></script>
