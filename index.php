@@ -370,7 +370,7 @@
                                 <li class="py-1">
                                     <div class="d-flex align-items-center">
                                         <span class="ti-check-box mr-2"></span>
-                                        <p class="mb-0">Free COMODO SSL Certificate
+                                        <p class="mb-0">Free SECURE SSL Certificate
                                         </p>
                                     </div>
                                 </li>
@@ -431,7 +431,7 @@
                                 <li class="py-1">
                                     <div class="d-flex align-items-center">
                                         <span class="ti-check-box mr-2"></span>
-                                        <p class="mb-0">Free COMODO SSL Certificate
+                                        <p class="mb-0">Free SECURE SSL Certificate
                                         </p>
                                     </div>
                                 </li>
@@ -506,7 +506,7 @@
 
                     <!--main menu start-->
                     <div id="navBar" class="collapse navbar-collapse">
-                        <ul class="navbar-nav ml-auto main-navbar-nav">
+                        <ul class="navbar-nav ml-auto main-navbar-nav smoothScroll">
                             <!--home start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
                                 <a id="homeMegaMenu" class="nav-link custom-nav-link" href="#home" aria-haspopup="true"
@@ -1133,24 +1133,25 @@
 <script src="assets/js/contact-form-script.js"></script>
 <script src="assets/js/thenexttechienoti.js"></script>
 <script>
-(function( $ ) {      "use strict";   
-  $(function() {
-      $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html, body').animate({
-                  scrollTop: target.offset().top
-                }, 1000);
-                return false;
-              }
-            }
-        });
-  });   
-}(jQuery));
-
-
+ 
+ 
+ $(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll a').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+ 
 $(document).ready(function () {
     var $videoSrc;
     $(".video-btn").click(function () {
