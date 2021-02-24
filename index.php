@@ -1021,7 +1021,8 @@
                         <a target="_blank" href="https://cloudy24.com/cancelation-policy" class="text-white">Cancelation Policy</a> |
                         <a target="_blank" href="https://cloudy24.com/billing-agreement" class="text-white">Billing Agreement</a> |
                         <a target="_blank" href="https://cloudy24.com/sla" class="text-white">SLA</a> |
-                        <a target="_blank" href="https://cloudy24.com/zero-tolerance-policy" class="text-white">Zero Tolerance Policy</a>
+                        <a target="_blank" href="https://cloudy24.com/zero-tolerance-policy" class="text-white">Zero Tolerance Policy</a> |
+                        <a target="_blank" href="https://cloudy24.com/trademark-copyright-infringement" class="text-white">DMCA</a>
 
                     </div>
                     <p class="text-white">Copyright © 2014 - <?= date("Y")?> <a style="color: white"
